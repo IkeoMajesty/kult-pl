@@ -62,9 +62,9 @@
   "gridDistance": 5,
   "gridUnits": "m",
   "primaryTokenAttribute": "harm",
-  "url": "https://gitlab.com/IkeoMajesty/kult-4ed-pl",
-  "manifest": "https://gitlab.com/IkeoMajesty/kult-4ed-pl/-/raw/master/system.json",
-  "download": "https://gitlab.com/IkeoMajesty/kult-4ed-pl/-/raw/master/kult4e-pl-foundry-master.zip",
+  "url": "https://github.com/IkeoMajesty/kult-pl",
+  "manifest": "https://raw.githubusercontent.com/IkeoMajesty/kult-pl/master/system.json",
+  "download": "https://raw.githubusercontent.com/IkeoMajesty/kult-pl/master/kult4e.rar",
   "license": "LICENSE.txt",
   "media": [
     {
