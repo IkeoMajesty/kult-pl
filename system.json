@@ -1,0 +1,74 @@
+{
+  "name": "kult4e",
+  "title": "Kult 4th Edition - PL",
+  "description": "Polska Wersja systemu Kult 4 edycja do Foundry VTT",
+  "version": 1.78,
+  "minimumCoreVersion": "0.6.6",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "Warsztat RPG based on work of Tom LaPorta",
+  "esmodules": ["kult4e.js"],
+  "styles": ["styles/kult4e.css"],
+  "packs": [
+    {"name": "moves",
+      "label": "Moves",
+      "system": "kult4e",
+      "module": "kult4e",
+      "path": "packs/moves.db",
+      "entity": "Item"},
+    {"name": "advantages",
+      "label": "Advantages",
+      "system": "kult4e",
+      "module": "kult4e",
+      "path": "packs/advantages.db",
+      "entity": "Item"},
+    {"name": "disadvantages",
+      "label": "Disadvantages",
+      "system": "kult4e",
+      "module": "kult4e",
+      "path": "packs/disadvantages.db",
+      "entity": "Item"},
+    {"name": "mroczne-sekrety",
+      "label": "Mroczne Sekrety",
+      "system": "kult4e",
+      "module": "kult4e",
+      "path": "packs/mroczne-sekrety.db",
+      "entity": "Item"},
+    {"name": "bron",
+      "label": "Broń",
+      "system": "kult4e",
+      "module": "kult4e",
+      "path": "packs/bron.db",
+      "entity": "Item"},
+    {"name": "akcje",
+      "label": "Akcje",
+      "system": "kult4e",
+      "module": "kult4e",
+      "path": "packs/akcje.db",
+      "entity": "Item"}
+    ],
+  "languages": [
+     {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+     {
+      "lang": "pl",
+      "name": "Polish",
+      "path": "lang/pl.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "harm",
+  "url": "https://gitlab.com/IkeoMajesty/kult-4ed-pl",
+  "manifest": "https://gitlab.com/IkeoMajesty/kult-4ed-pl/-/raw/master/system.json",
+  "download": "https://gitlab.com/IkeoMajesty/kult-4ed-pl/-/raw/master/kult4e-pl-foundry-master.zip",
+  "license": "LICENSE.txt",
+  "media": [
+    {
+      "type": "cover",
+      "url": "systems/kult4e/assets/kult-pl-b.png"
+    }]
+}

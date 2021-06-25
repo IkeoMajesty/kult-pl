@@ -1,0 +1,35 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Nazwa"/></h1>
+    </header>
+   <div>
+<table>
+    <tr><td>Atrybut:</td><td><select name="data.attributemod" value= "{{data.attributemod}}" {{#select data.attributemod}}>
+        <option value="willpower">Siła Woli</option>
+        <option value="fortitude">Odporność</option>
+        <option value="reflexes">Refleks</option>
+        <option value="reason">Rozum</option>
+        <option value="intuition">Intuicja</option>
+        <option value="perception">Percepcja</option>
+        <option value="coolness">Opanowanie</option>
+        <option value="violence">Przemoc</option>
+        <option value="charisma">Charyzma</option>
+        <option value="soul">Dusza</option>
+        {{/select}}
+        </select></td>
+        </tr>
+    <tr class="editor-row"><td>Aktywator:</td><td>{{editor content=data.trigger target="data.trigger" button=true owner=owner editable=editable}}</td></tr></table>
+    <div class="results-input">
+    
+    
+    <tr class="editor-row"><td>15+:</td><td>{{editor content=data.completesuccess target="data.completesuccess" button=true owner=owner editable=editable}}</td></tr>
+    <tr class="editor-row"><td>10-14:</td><td>{{editor content=data.partialsuccess target="data.partialsuccess" button=true owner=owner editable=editable}}</td></tr>
+    <tr class="editor-row"><td>0-9</td><td>{{editor content=data.failure target="data.failure" button=true owner=owner editable=editable}}</td></tr>
+</table>
+<select name="data.specialflag" value="{{data.specialflag}}"{{#select data.specialflag}}><option value='0'>Brak</option><option value='1'>Weż Się w Garść</option><option value='2'>See Through the Illusion</option><option value='3'>Znieś Obrażenia</option>{{/select}}</select>
+
+   </div>
+   </div>
+
+   </form>
